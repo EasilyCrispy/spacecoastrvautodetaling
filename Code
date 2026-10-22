@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Coast RV & Auto Detailing | Mims & Titusville, FL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            deepSpace: '#120A1C', // Deep Void Purple-Navy
+                            amber: '#D97706',     // Harvest Amber Gold
+                            terracotta: '#C2410C',// Warm Fall Terracotta
+                            copper: '#EA580C',    // Solar Flare Copper
+                            sand: '#FEF3C7',      // Warm Starlight Cream
+                            light: '#FFFBEB'      // Soft Autumn Background
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-light text-slate-800 font-sans antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-deepSpace text-brand-sand text-xs sm:text-sm py-2 px-4 text-center font-medium border-b border-brand-terracotta/30">
+        <i class="fa-solid fa-rocket text-brand-copper mr-2"></i> Serving Mims, Titusville, & Brevard County | Mobile RV & Auto Detailing
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-brand-deepSpace/95 backdrop-blur shadow-md border-b border-brand-terracotta/20">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-terracotta flex items-center justify-center text-brand-sand shadow-lg border border-brand-copper/30">
+                    <i class="fa-solid fa-rocket text-xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-black text-lg tracking-tight text-white leading-none">SPACE COAST</h1>
+                    <span class="text-xs font-bold text-brand-amber tracking-wider uppercase">RV & Auto Detailing</span>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#schedule" class="hidden sm:inline-flex items-center text-sm font-bold text-brand-sand hover:text-brand-amber transition">
+                    <i class="fa-solid fa-calendar-days text-brand-copper mr-2"></i> Hours
+                </a>
+                <a href="#book" class="bg-brand-copper hover:bg-brand-terracotta text-white font-bold px-4 py-2 rounded-xl text-sm shadow-md transition transform active:scale-95">
+                    Book Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-brand-deepSpace text-white py-16 lg:py-24 overflow-hidden border-b border-brand-terracotta/20">
+        <div class="absolute inset-0 opacity-15 bg-[radial-gradient(#EA580C_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        <div class="max-w-6xl mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center space-x-2 bg-white/10 border border-brand-amber/30 px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide text-brand-amber">
+                    <i class="fa-solid fa-shield-halved"></i> <span>Licensed, Insured & DEP Water Reclamation</span>
+                </div>
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-none text-white">
+                    Pressure Foam Wash <br><span class="text-brand-copper">& Carnauba Shine.</span>
+                </h2>
+                <p class="text-slate-300 text-lg max-w-xl mx-auto lg:mx-0">
+                    High-pressure foam cannon washing with premium Thetford Carnauba RV Wash & Wax. Servicing RVs, trucks, SUVs, and tow vehicles right at your pad.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2">
+                    <a href="#estimator" class="bg-brand-copper hover:bg-brand-terracotta text-white font-bold px-6 py-3.5 rounded-xl text-center shadow-lg transition">
+                        Calculate Estimate <i class="fa-solid fa-calculator ml-2"></i>
+                    </a>
+                    <a href="#schedule" class="bg-white/10 hover:bg-white/20 border border-white/20 text-brand-sand font-bold px-6 py-3.5 rounded-xl text-center transition">
+                        View Availability
+                    </a>
+                </div>
+            </div>
+            <div class="lg:col-span-5 flex justify-center">
+                <div class="bg-white p-6 rounded-3xl shadow-2xl text-slate-800 w-full max-w-md border border-brand-amber/20">
+                    <div class="text-center pb-4 border-b border-slate-100">
+                        <span class="text-xs font-bold uppercase tracking-wider text-brand-terracotta">Quick Scan QR</span>
+                        <h3 class="font-black text-xl text-brand-deepSpace">Instant Mobile Booking</h3>
+                    </div>
+                    <div class="py-6 flex flex-col items-center justify-center space-y-4">
+                        <div class="w-48 h-48 bg-brand-light rounded-2xl flex items-center justify-center border-4 border-brand-deepSpace/10 relative p-2">
+                            <i class="fa-solid fa-qrcode text-8xl text-brand-deepSpace"></i>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="bg-brand-copper text-white p-2 rounded-lg shadow-md">
+                                    <i class="fa-solid fa-rocket"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-xs text-slate-500 text-center">Scan our standup sign to calculate pricing & lock in your spot on site!</p>
+                    </div>
+                    <a href="#book" class="block w-full bg-brand-deepSpace hover:bg-slate-900 text-white font-bold py-3 rounded-xl text-center transition">
+                        Book Detail Slot
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule & Availability Section -->
+    <section id="schedule" class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-terracotta">Shift-Adjusted Availability</span>
+                <h2 class="text-3xl font-black text-brand-deepSpace">Live Booking Windows</h2>
+                <p class="text-slate-600 text-sm">We schedule detailing appointments around shift work and designated rest windows for top-tier service quality.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Current Week -->
+                <div class="bg-brand-light rounded-2xl p-6 border border-brand-amber/30">
+                    <h3 class="font-black text-lg text-brand-deepSpace mb-4 flex items-center">
+                        <i class="fa-solid fa-calendar-week text-brand-copper mr-2"></i> Oct 22 – Oct 28 Openings
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex justify-between items-center pb-2 border-b border-amber-200/50">
+                            <span class="font-bold text-slate-700">Thu 10/22 & Fri 10/23</span>
+                            <span class="bg-brand-amber/20 text-brand-terracotta font-bold px-2.5 py-1 rounded-lg text-xs">8:00 AM – 3:30 PM</span>
+                        </li>
+                        <li class="flex justify-between items-center pb-2 border-b border-amber-200/50">
+                            <span class="font-bold text-slate-700">Sat 10/24</span>
+                            <span class="bg-brand-amber/20 text-brand-terracotta font-bold px-2.5 py-1 rounded-lg text-xs">1:30 PM – 4:00 PM</span>
+                        </li>
+                        <li class="flex justify-between items-center pb-2 border-b border-amber-200/50">
+                            <span class="font-bold text-slate-700">Sun 10/25</span>
+                            <span class="bg-brand-amber/20 text-brand-terracotta font-bold px-2.5 py-1 rounded-lg text-xs">2:30 PM – 6:00 PM</span>
+                        </li>
+                        <li class="flex justify-between items-center text-slate-400">
+                            <span>Mon 10/26 – Wed 10/28</span>
+                            <span class="text-xs">Open By Request</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Night Shift Rotation -->
+                <div class="bg-brand-light rounded-2xl p-6 border border-brand-amber/30">
+                    <h3 class="font-black text-lg text-brand-deepSpace mb-4 flex items-center">
+                        <i class="fa-solid fa-moon text-brand-copper mr-2"></i> Night Shift Rotation Windows
+                    </h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex justify-between items-center pb-2 border-b border-amber-200/50">
+                            <span class="font-bold text-slate-700">Thu 10/29</span>
+                            <span class="bg-brand-amber/20 text-brand-terracotta font-bold px-2.5 py-1 rounded-lg text-xs">8:00 AM – 3:30 PM</span>
+                        </li>
+                        <li class="flex justify-between items-center pb-2 border-b border-amber-200/50">
+                            <span class="font-bold text-slate-700">Fri 10/30 & Sat 10/31</span>
+                            <span class="bg-brand-amber/20 text-brand-terracotta font-bold px-2.5 py-1 rounded-lg text-xs">3:30 PM – 7:30 PM</span>
+                        </li>
+                        <li class="flex justify-between items-center pb-2 border-b border-amber-200/50">
+                            <span class="font-bold text-slate-700">Fri 11/06 – Sun 11/08</span>
+                            <span class="bg-brand-amber/20 text-brand-terracotta font-bold px-2.5 py-1 rounded-lg text-xs">3:30 PM – 7:30 PM</span>
+                        </li>
+                        <li class="flex justify-between items-center text-slate-500 pt-1">
+                            <span class="text-xs italic"><i class="fa-solid fa-bed text-slate-400 mr-1"></i> Sleep recovery window strictly observed (7:00 AM – 3:00 PM).</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Interactive Price Estimator -->
+    <section id="estimator" class="bg-amber-50/50 py-20 border-y border-amber-200/60">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-10 space-y-2">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-terracotta">Dynamic Quote Engine</span>
+                <h2 class="text-3xl font-black text-brand-deepSpace">Calculate Your Detail Quote</h2>
+                <p class="text-slate-600 text-sm">Choose RV or Auto Detailing below to calculate your instant rate.</p>
+            </div>
+
+            <!-- Service Switcher Toggle -->
+            <div class="flex justify-center mb-8">
+                <div class="bg-amber-200/60 p-1.5 rounded-2xl flex space-x-2 shadow-inner">
+                    <button type="button" id="tabRV" class="px-6 py-2.5 rounded-xl font-bold text-sm transition bg-brand-deepSpace text-brand-sand shadow-md">
+                        <i class="fa-solid fa-caravan mr-2"></i> RV Detailing
+                    </button>
+                    <button type="button" id="tabAuto" class="px-6 py-2.5 rounded-xl font-bold text-sm transition text-slate-700 hover:text-brand-deepSpace">
+                        <i class="fa-solid fa-car mr-2"></i> Auto Detailing
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-amber-200/80 grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Left Controls Panel -->
+                <div class="space-y-6">
+
+                    <!-- RV Specific Controls -->
+                    <div id="rvControls" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">
+                                RV Length (Feet): <span id="lengthVal" class="text-brand-terracotta font-black text-lg">30</span> ft
+                            </label>
+                            <input type="range" id="rvLength" min="18" max="45" value="30" step="1" class="w-full accent-brand-terracotta cursor-pointer">
+                            <div class="flex justify-between text-xs text-slate-400 mt-1">
+                                <span>18 ft</span>
+                                <span>30 ft</span>
+                                <span>45 ft</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Select Wash Package</label>
+                            <select id="rvServiceLevel" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none">
+                                <option value="body">Exterior Body Only ($8/ft)</option>
+                                <option value="full" selected>Full Package: Roof, Body & Wheels ($10/ft)</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Service Frequency</label>
+                            <select id="rvFrequency" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none">
+                                <option value="once" selected>One-Time Detail</option>
+                                <option value="subscription">Monthly Maintenance Club (2 Mo. Min)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Auto Specific Controls -->
+                    <div id="autoControls" class="space-y-6 hidden">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Vehicle Category</label>
+                            <select id="autoType" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none">
+                                <option value="sedan" selected>Sedan / Coupe / Hatchback</option>
+                                <option value="suv">Truck / SUV / Minivan / Crossover</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Select Detail Package</label>
+                            <select id="autoPackage" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none">
+                                <option value="express">Express Wash & Carnauba Wax (Exterior)</option>
+                                <option value="full" selected>Full Package: Exterior Wash + Full Interior</option>
+                            </select>
+                        </div>
+
+                        <!-- Auto Add-Ons -->
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Select Add-Ons</label>
+                            <div class="space-y-2">
+                                <label class="flex items-center space-x-3 bg-slate-50 border border-slate-200 p-3 rounded-xl cursor-pointer hover:bg-amber-50/50 transition">
+                                    <input type="checkbox" id="addonEngine" class="w-4 h-4 accent-brand-terracotta rounded">
+                                    <span class="text-sm font-bold text-slate-700">Engine Bay Detail (+$50)</span>
+                                </label>
+
+                                <!-- Prepared Hidden Add-Ons -->
+                                <label class="hidden flex items-center space-x-3 bg-slate-50 border border-slate-200 p-3 rounded-xl cursor-pointer">
+                                    <input type="checkbox" id="addonHeadlights" class="w-4 h-4 accent-brand-terracotta rounded">
+                                    <span class="text-sm font-bold text-slate-700">Headlight Restoration (+$60)</span>
+                                </label>
+                                <label class="hidden flex items-center space-x-3 bg-slate-50 border border-slate-200 p-3 rounded-xl cursor-pointer">
+                                    <input type="checkbox" id="addonSeats" class="w-4 h-4 accent-brand-terracotta rounded">
+                                    <span class="text-sm font-bold text-slate-700">Hot Water Seat Extraction (+$75)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shared Promo Code Input -->
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Promo Code</label>
+                        <div class="flex space-x-2">
+                            <input type="text" id="promoCode" placeholder="Try RESIDENT25 or FIRST20" class="uppercase w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-2.5 text-sm font-medium focus:ring-2 focus:ring-brand-terracotta focus:outline-none">
+                            <button type="button" id="applyPromo" class="bg-brand-deepSpace hover:bg-slate-900 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition">Apply</button>
+                        </div>
+                        <p id="promoStatus" class="text-xs font-bold mt-1 hidden"></p>
+                    </div>
+                </div>
+
+                <!-- Price Summary Box -->
+                <div class="bg-brand-deepSpace text-white rounded-2xl p-8 flex flex-col justify-between shadow-inner border border-brand-copper/30">
+                    <div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xs font-bold uppercase tracking-widest text-brand-amber">Estimated Quote</span>
+                            <span id="savingsBadge" class="hidden bg-brand-copper/30 text-brand-sand border border-brand-copper/50 text-xs font-bold px-2.5 py-0.5 rounded-full"></span>
+                        </div>
+                        <div class="text-4xl sm:text-5xl font-black mt-3 mb-2 text-white" id="totalPrice">$300</div>
+                        <p id="subNotice" class="text-xs text-brand-amber font-semibold mb-4 hidden"><i class="fa-solid fa-arrows-rotate mr-1"></i> Billed monthly with a 2-month minimum commitment.</p>
+                        
+                        <ul class="space-y-2 text-sm text-slate-300 border-t border-slate-800 pt-4" id="featureList">
+                            <li><i class="fa-solid fa-check text-brand-amber mr-2"></i> Pressure Washer Foam Cannon</li>
+                            <li><i class="fa-solid fa-check text-brand-amber mr-2"></i> Thetford Carnauba Wash & Wax</li>
+                            <li><i class="fa-solid fa-check text-brand-amber mr-2"></i> DEP Water Reclamation Compliant</li>
+                            <li><i class="fa-solid fa-check text-brand-amber mr-2"></i> Mobile Service On Site</li>
+                        </ul>
+                    </div>
+                    <a href="#book" class="mt-8 block bg-brand-copper hover:bg-brand-terracotta text-white font-bold py-3.5 rounded-xl text-center shadow-lg transition">
+                        Lock In This Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="book" class="py-20 max-w-3xl mx-auto px-4">
+        <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-amber-200/80">
+            <div class="text-center mb-8 space-y-2">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-terracotta">Direct Reservation</span>
+                <h2 class="text-3xl font-black text-brand-deepSpace">Book Your Service Slot</h2>
+                <p class="text-slate-600 text-sm">Select your slot and location. We confirm all requests within 2 hours.</p>
+            </div>
+
+            <form onsubmit="event.preventDefault(); alert('Booking request submitted! We will cross-reference our shift calendar and contact you shortly to confirm your time.');" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Full Name</label>
+                        <input type="text" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Phone Number</label>
+                        <input type="tel" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none" placeholder="(321) 000-0000">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Preferred Slot / Date</label>
+                        <input type="text" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none" placeholder="e.g. Thu 10/22 @ 9:00 AM">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Location / RV Park & Lot #</label>
+                        <input type="text" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none" placeholder="Mims, FL (Lot #)">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Vehicle Make / Model / RV</label>
+                        <input type="text" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none" placeholder="e.g. 32ft 5th Wheel or F-150">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Applied Promo Code (Optional)</label>
+                        <input type="text" id="formPromo" class="uppercase w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 font-medium text-slate-800 focus:ring-2 focus:ring-brand-terracotta focus:outline-none" placeholder="RESIDENT25 or FIRST20">
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-brand-deepSpace hover:bg-slate-900 text-white font-bold py-4 rounded-xl shadow-lg transition">
+                    Submit Reservation Request
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-deepSpace text-white py-12 border-t border-brand-terracotta/20">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-terracotta flex items-center justify-center text-brand-sand shadow-md">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+                <div>
+                    <h2 class="font-black text-lg tracking-tight leading-none">SPACE COAST</h2>
+                    <span class="text-xs font-bold text-brand-amber tracking-wider uppercase">RV & Auto Detailing</span>
+                </div>
+            </div>
+            <p class="text-xs text-slate-400 text-center">
+                &copy; 2026 Space Coast RV & Auto Detailing. Serving Mims, Titusville, and Brevard County, FL.
+            </p>
+            <div class="flex space-x-4 text-slate-400">
+                <a href="#schedule" class="hover:text-brand-amber transition"><i class="fa-solid fa-calendar"></i></a>
+                <a href="#book" class="hover:text-brand-amber transition"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dynamic Dual-Calculator Engine Script -->
+    <script>
+        // Tabs & Controls
+        const tabRV = document.getElementById('tabRV');
+        const tabAuto = document.getElementById('tabAuto');
+        const rvControls = document.getElementById('rvControls');
+        const autoControls = document.getElementById('autoControls');
+
+        // RV Elements
+        const rvLength = document.getElementById('rvLength');
+        const lengthVal = document.getElementById('lengthVal');
+        const rvServiceLevel = document.getElementById('rvServiceLevel');
+        const rvFrequency = document.getElementById('rvFrequency');
+
+        // Auto Elements
+        const autoType = document.getElementById('autoType');
+        const autoPackage = document.getElementById('autoPackage');
+        const addonEngine = document.getElementById('addonEngine');
+
+        // Promo & Display
+        const promoCode = document.getElementById('promoCode');
+        const applyPromo = document.getElementById('applyPromo');
+        const promoStatus = document.getElementById('promoStatus');
+        const totalPrice = document.getElementById('totalPrice');
+        const savingsBadge = document.getElementById('savingsBadge');
+        const subNotice = document.getElementById('subNotice');
+        const formPromo = document.getElementById('formPromo');
+
+        let currentMode = 'rv';
+        let activePromoCode = '';
+
+        // Tab Switching Logic
+        tabRV.addEventListener('click', () => {
+            currentMode = 'rv';
+            tabRV.className = 'px-6 py-2.5 rounded-xl font-bold text-sm transition bg-brand-deepSpace text-brand-sand shadow-md';
+            tabAuto.className = 'px-6 py-2.5 rounded-xl font-bold text-sm transition text-slate-700 hover:text-brand-deepSpace';
+            rvControls.classList.remove('hidden');
+            autoControls.classList.add('hidden');
+            calculatePrice();
+        });
+
+        tabAuto.addEventListener('click', () => {
+            currentMode = 'auto';
+            tabAuto.className = 'px-6 py-2.5 rounded-xl font-bold text-sm transition bg-brand-deepSpace text-brand-sand shadow-md';
+            tabRV.className = 'px-6 py-2.5 rounded-xl font-bold text-sm transition text-slate-700 hover:text-brand-deepSpace';
+            autoControls.classList.remove('hidden');
+            rvControls.classList.add('hidden');
+            calculatePrice();
+        });
+
+        function calculatePrice() {
+            let rawTotal = 0;
+            let isSubscription = false;
+
+            if (currentMode === 'rv') {
+                const length = parseInt(rvLength.value);
+                lengthVal.textContent = length;
+                let rate = rvServiceLevel.value === 'full' ? 10 : 8;
+                rawTotal = length * rate;
+                isSubscription = (rvFrequency.value === 'subscription');
+            } else {
+                let type = autoType.value;
+                let pkg = autoPackage.value;
+
+                if (pkg === 'express') {
+                    rawTotal = (type === 'sedan') ? 60 : 80;
+                } else {
+                    rawTotal = (type === 'sedan') ? 140 : 180;
+                }
+
+                if (addonEngine.checked) rawTotal += 50;
+            }
+
+            if (isSubscription) {
+                subNotice.classList.remove('hidden');
+            } else {
+                subNotice.classList.add('hidden');
+            }
+
+            // Non-Stacking Discount Logic
+            let effectiveDiscountPct = 0;
+            if (activePromoCode === 'RESIDENT25') {
+                effectiveDiscountPct = 25;
+            } else if (activePromoCode === 'FIRST20') {
+                effectiveDiscountPct = 20;
+            } else if (isSubscription && currentMode === 'rv') {
+                effectiveDiscountPct = 15;
+            }
+
+            let discountDecimal = effectiveDiscountPct / 100;
+            let finalPrice = Math.round(rawTotal * (1 - discountDecimal));
+
+            totalPrice.textContent = '$' + finalPrice + (isSubscription ? ' / mo' : '');
+
+            if (effectiveDiscountPct > 0) {
+                savingsBadge.textContent = effectiveDiscountPct + '% OFF APPLIED';
+                savingsBadge.classList.remove('hidden');
+            } else {
+                savingsBadge.classList.add('hidden');
+            }
+        }
+
+        applyPromo.addEventListener('click', () => {
+            const code = promoCode.value.trim().toUpperCase();
+            if (code === 'RESIDENT25') {
+                activePromoCode = 'RESIDENT25';
+                promoStatus.textContent = 'RESIDENT25 applied: 25% Off Any Wash or Subscription';
+                promoStatus.className = 'text-xs font-bold mt-1 text-emerald-600';
+                promoStatus.classList.remove('hidden');
+                formPromo.value = 'RESIDENT25';
+            } else if (code === 'FIRST20') {
+                activePromoCode = 'FIRST20';
+                promoStatus.textContent = 'FIRST20 applied: 20% Off First-Time Customer';
+                promoStatus.className = 'text-xs font-bold mt-1 text-emerald-600';
+                promoStatus.classList.remove('hidden');
+                formPromo.value = 'FIRST20';
+            } else if (code === '') {
+                activePromoCode = '';
+                promoStatus.classList.add('hidden');
+                formPromo.value = '';
+            } else {
+                activePromoCode = '';
+                promoStatus.textContent = 'Invalid promo code';
+                promoStatus.className = 'text-xs font-bold mt-1 text-rose-500';
+                promoStatus.classList.remove('hidden');
+            }
+            calculatePrice();
+        });
+
+        // Event Listeners
+        rvLength.addEventListener('input', calculatePrice);
+        rvServiceLevel.addEventListener('change', calculatePrice);
+        rvFrequency.addEventListener('change', calculatePrice);
+
+        autoType.addEventListener('change', calculatePrice);
+        autoPackage.addEventListener('change', calculatePrice);
+        addonEngine.addEventListener('change', calculatePrice);
+
+        calculatePrice();
+    </script>
+</body>
+</html>
